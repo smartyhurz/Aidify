@@ -1,0 +1,200 @@
+
+.anchor{
+    text-decoration: none;
+    
+  }
+  
+  .text{
+   color: aliceblue;
+  }
+  
+  .social{
+    display: inline-block;
+  }
+  
+  .nex{
+    color: aliceblue;
+  }
+  
+  .hike{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row boxx{
+   
+  background-attachment: fixed;
+  }
+  
+  #Hero{
+    background-image:url("img/mai.webp");
+    height: 85vh;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 80px;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column
+  }
+
+  #Header{
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(9, 9, 9);
+    box-shadow: 0px 5px 15px rgb(74, 74, 74);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+#Header .cart{
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color:aliceblue;
+}
+
+#Header a{
+  font-size: 20px;
+}
+
+#Hero button{
+  background-image: url(img/button.png);
+  color:black;
+  background-color: transparent;;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  background-repeat:no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 200px;
+  background-position: 120px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+#Hero h1{
+  padding-left: 20px;
+  font-size: 45px;
+}
+
+#Hero h4{
+    padding-left: 200px;
+    font-size: 20px;
+}    
+
+#Hero p{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#Hero h2{
+    padding-left: 200px;
+    font-size: 45px;
+   
+}
+/* posts*/
+.section-p1{
+  padding: 75px 80px;
+}
+
+#product{
+  text-align: center;
+}
+
+#product .pro{
+     width: 30%;
+     min-width: 300px;
+     padding: 10px 12px;
+     border: 4px solid rgb(16, 15, 15);
+     border-radius: 4px;
+     cursor: pointer;
+     box-shadow: 0px 0px 14px rgb(0, 0, 0);
+     margin: 50px 0;
+     transition: 0.5s ease;
+     position: relative;
+     background-color:antiquewhite;
+}
+
+#product .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+#product .pro:hover{
+  box-shadow: 0px 0px 60px black;
+}
+
+#product .pro .des{
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product .pro .des span{
+  color:black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#product .pro .des h1{
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+}
+
+#product .pro .des i{
+  color:  rgb(74, 74, 74);
+  font-size: 15px;
+}
+
+#product .pro .des h4{
+  color:black;
+  font-size: 20px;
+  padding-top: 7px;
+  font-weight: 500;
+}
+
+#product .pro .cart{
+  width: 60px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  background-color:white;
+  font-size: 20px;
+  color:black;
+  border: 3px solid black;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+
+#product .pro .cart .i{
+ font-size: 20px;
+}
+#product .pro-container{
+  display: flex;
+  justify-content:space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+#product h2{
+  color:black;
+  font-size: 50px;
+}
+
+#product p{
+  color:black;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+
+#product .pro .buy{
+  position: absolute;
+}
